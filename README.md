@@ -1,6 +1,8 @@
 # log_app
 
-A new Flutter project.
+This project was inspired to design from the project which i typed down below links. You can look real project from there.
+The real project on Youtube: https://www.youtube.com/watch?v=ExKYjqgswJg
+The real project on Github: https://github.com/abuanwar072/Welcome-Login-Signup-Page-Flutter
 
 ## Getting Started
 
