@@ -4,9 +4,9 @@ This project was inspired to design from the project which i typed down below li
 The real project on Youtube: https://www.youtube.com/watch?v=ExKYjqgswJg ,
 The real project on Github: https://github.com/abuanwar072/Welcome-Login-Signup-Page-Flutter
 
-![screenshot_1](https://user-images.githubusercontent.com/94011744/146552241-30a0e13f-6bb9-442a-a048-7661081874a4.png)
-![screenshot_2](https://user-images.githubusercontent.com/94011744/146552248-90978911-40a9-42b3-ac9c-c820130f004c.png)
-![screenshot_3](https://user-images.githubusercontent.com/94011744/146552259-c9a2780c-a84a-49fe-8d5a-21541b82565d.png)
+![screenshot_1](https://user-images.githubusercontent.com/94011744/146552374-033355e1-260c-49cb-a9e9-dd4f937131e8.png)
+![screenshot_2](https://user-images.githubusercontent.com/94011744/146552385-80a958f3-2f15-4363-81ff-39f4a5192230.png)
+![screenshot_3](https://user-images.githubusercontent.com/94011744/146552394-1048d9ee-c592-4aac-8c6a-af2727b72743.png)
 
 
 ## Getting Started
