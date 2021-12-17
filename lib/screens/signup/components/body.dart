@@ -17,7 +17,8 @@ class SignUpBody extends StatelessWidget {
   Widget build(BuildContext context) {
     return SingleChildScrollView(
       child: Padding(
-        padding: EdgeInsets.all(screenWidth * 0.05),
+        padding:
+            EdgeInsets.fromLTRB(screenWidth * 0.05, 0, screenWidth * 0.05, 0),
         child: Container(
           width: screenWidth,
           height: screenHeight,
@@ -30,16 +31,16 @@ class SignUpBody extends StatelessWidget {
                     fontWeight: FontWeight.bold, color: kPrimaryColor),
               ),
               SizedBox(
-                height: screenHeight * 0.03,
+                height: screenHeight * 0.01,
               ),
               SvgPicture.asset("assets/icons/signup.svg"),
               Container(
-                margin: EdgeInsets.only(top: screenWidth * 0.1),
+                margin: EdgeInsets.only(top: screenWidth * 0.03),
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(50),
                   color: kPrimaryLightColor,
                 ),
-                child: TextField(
+                child: const TextField(
                   keyboardType: TextInputType.emailAddress,
                   decoration: InputDecoration(
                     prefixIcon: Icon(
@@ -51,12 +52,13 @@ class SignUpBody extends StatelessWidget {
                 ),
               ),
               Container(
-                margin: EdgeInsets.only(top: screenWidth * 0.05),
+                margin: EdgeInsets.only(top: screenWidth * 0.01),
                 decoration: BoxDecoration(
                   color: kPrimaryLightColor,
                   borderRadius: BorderRadius.circular(25),
                 ),
-                child: TextField(
+                child: const TextField(
+                  key: Key("Hello"),
                   obscureText: true,
                   decoration: InputDecoration(
                     prefixIcon: Icon(
@@ -75,7 +77,7 @@ class SignUpBody extends StatelessWidget {
                   borderRadius: BorderRadius.circular(25),
                   color: kPrimaryColor,
                 ),
-                child: TextButton(
+                child: const TextButton(
                   onPressed: null,
                   child: Text(
                     "SIGN UP",
@@ -84,7 +86,7 @@ class SignUpBody extends StatelessWidget {
                 ),
               ),
               SizedBox(
-                height: screenHeight * 0.05,
+                height: screenHeight * 0.02,
               ),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
